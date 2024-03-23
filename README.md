@@ -1,2 +1,2 @@
 # Java
-Exércisios de Java ministrados pela professora Fernanda.
+Exércisios de Java.
