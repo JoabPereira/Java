@@ -1,0 +1,20 @@
+public class Funcionario {
+    int matricula;
+    String nome;
+    double salarioBruto;
+    double descontoINSS;
+    double salarioLiquido;
+
+    public Funcionario() {
+    }
+
+    public void calculadesconto() {
+        this.descontoINSS = this.salarioBruto * 0.15;
+        System.out.println("Desconto do INSS: " + this.descontoINSS);
+    }
+
+    public void liquido() {
+        this.salarioLiquido = this.salarioBruto - this.descontoINSS;
+        System.out.println("Salario liquido: " + this.salarioLiquido);
+    }
+}
