@@ -1,2 +1,2 @@
-# Nota 02 .Java
+# Notas de aula Java
 Exércisios de Java.
